@@ -1,0 +1,25 @@
+{
+  "name":"twinsen/lib-fashion123",
+  "type":"library",
+  "license":"OSL-2.0",
+  "homepage":"http://twinsen.de",
+  "description":"An PHP-Api for the upcoming StockFighter Game",
+  "version": "1.0.0",
+  "authors":[
+    {
+      "name":"Elias Kotlyar",
+      "email":"elias.kotlyar@gmail.com"
+    }
+  ],
+  "require":{
+    "guzzlehttp/guzzle":"~6.0",
+    "monolog/monolog":"*"
+  },
+  "require-dev":{
+  },
+  "autoload": {
+    "psr-4": {
+      "Twinsen\\StockFighterApi\\": ["src/"]
+    }
+  }
+}
